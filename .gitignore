@@ -1,0 +1,36 @@
+# Environment / secrets
+.env
+.env.local
+*.env
+!.env.example
+config.local.js
+secrets.json
+
+# Frontend local config
+frontend/config.js
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
